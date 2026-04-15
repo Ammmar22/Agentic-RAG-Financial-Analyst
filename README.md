@@ -9,7 +9,7 @@ Ce projet implémente un assistant intelligent capable d'analyser des rapports f
 - **FastAPI & Docker** : Prêt pour la production et conteneurisé.
 
 ##  Stack Technique
-- **LLM** : Google Gemini 1.5 Flash
+- **LLM** : Google Gemini 2.5 Flash
 - **Base Vectorielle** : ChromaDB (Embeddings: gemini-embedding-001)
 - **Framework** : Python, FastAPI, Pydantic
 - **DevOps** : Docker
