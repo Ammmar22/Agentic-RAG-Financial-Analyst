@@ -22,17 +22,3 @@ Ce projet implémente un assistant intelligent capable d'analyser des rapports f
    docker build -t lumina-ai .
    docker run -p 8000:8000 lumina-ai
 
-###  4. Les commandes pour le "Push" sur GitHub
-
-Ouvre ton terminal dans le dossier du projet et tape ces commandes :
-
-1.  **Initialiser le dépôt** :
-    `git init`
-2.  **Ajouter tous les fichiers** (grâce au `.gitignore`, la clé .env sera ignorée) :
-    `git add .`
-3.  **Créer ton premier message** :
-    `git commit -m "Initial commit: Agentic RAG with Streaming and FastAPI"`
-4.  **Lier à ton GitHub** (Remplace par l'URL de ton dépôt créé sur GitHub.com) :
-    `git remote add origin https://github.com/TON_PSEUDO/Lumina-AI.git`
-5.  **Envoyer le code** :
-    `git push -u origin main`
